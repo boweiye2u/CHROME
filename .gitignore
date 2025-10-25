@@ -8,11 +8,4 @@ __pycache__/
 .venv
 .envrc
 .DS_Store
-data/
 outputs/
-*.npz
-*.npy
-*.pt
-*.pth
-*.h5
-*.hdf5
