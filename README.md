@@ -39,10 +39,7 @@ Predictions and attention-based contribution maps will be saved under:
 
 **Figure 1. CHROME architecture and evaluation overview.**
 
-#### A–B Panels
 ![CHROME architecture overview](figures/1_AB.PNG)
-
-#### C Panel
 ![CHROME performance comparison](figures/1_C.PNG)
 
 The top panels illustrate how CHROME constructs structure-aware graphs from non-random Hi-C contacts and integrates sequence, DNase, or Evo2 embeddings through GAT layers.  
