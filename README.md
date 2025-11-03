@@ -1,7 +1,7 @@
 # 🧬 CHROME: Chromatin-Structure–Guided Graph Embedding Framework
 
-CHROME is a deep learning framework that integrates **biologically meaningful, non-random Hi-C contacts** with **Graph Attention Networks (GATs)** to model cell line–specific regulatory landscapes across multi-megabase chromatin domains.  
-By combining the **local resolution of sequence encoders** with the **long-range context of 3D chromatin structure**, CHROME accurately predicts transcription factor binding, histone modifications, eQTL effects, and ClinVar variant pathogenicity.
+CHROME is a deep learning framework that integrates **physically specific, non-random Hi-C contacts** with **Graph Attention Networks (GATs)** to model cell line–specific regulatory landscapes across multi-megabase chromatin domains.  
+By combining the local resolution of sequence encoders with the long-range context provided by three-dimensional chromatin architecture, CHROME accurately predicts transcription factor binding and histone modification profiles. The learned representations further generalize to variant effect analyses, including eQTL directionality and ClinVar variant pathogenicity prediction.
 
 ---
 
