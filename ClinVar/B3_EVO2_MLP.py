@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 import os, sys, glob, pickle
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 from collections import defaultdict, Counter
 import numpy as np
 import torch
