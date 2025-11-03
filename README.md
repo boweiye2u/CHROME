@@ -17,9 +17,6 @@ conda create -n chrome python=3.9
 conda activate chrome
 
 # 3️⃣ Install dependencies
-# Option 1: Conda
-conda env update -f environment.yml
-# Option 2: Pip
 pip install -r requirements.txt
 ```
 
