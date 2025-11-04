@@ -65,5 +65,5 @@ If you use **CHROME** in your research, please cite:
 ## 🧑‍💻 Contact
 
 **Bowei Ye**  
-Research Assistant, University of Illinois Chicago  
+<!-- Research Assistant, University of Illinois Chicago   -->
 📧 boweiye2@uic.edu
