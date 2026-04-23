@@ -1,6 +1,4 @@
-# 🧬 CHROME: Chromatin-Structure–Guided Graph Embedding Framework
-
-# CHROME: Chromatin-Structure-Guided Regulatory Modeling
+# 🧬CHROME: Chromatin-Structure-Guided Regulatory Modeling
 
 CHROME is a deep learning framework that integrates **physically specific, non-random Hi-C contacts** with **Graph Attention Networks (GATs)** to model cell line–specific regulatory landscapes across multi-megabase chromatin domains. By combining local sequence-based encoders with long-range three-dimensional chromatin structure, CHROME predicts transcription factor binding and histone modification profiles. The learned representations further support downstream variant effect analysis, including eQTL directionality and ClinVar pathogenicity prediction.
 
@@ -14,7 +12,7 @@ All data and model resources required to reproduce CHROME are available at Zenod
 
 This repository includes:
 - Trained model checkpoints (sequence-only, DNase+sequence, Evo2-based CHROME, and matched baselines)
-- Processed non-random chromatin contact sets (GM12878, K562, IMR-90, HepG2 chr9)
+- Processed non-random chromatin contact sets (GM12878, K562, IMR-90, HepG2 (chr9))
 - Training, validation, and test datasets for:
   - ChIP-seq prediction
   - Ablation experiments
@@ -22,16 +20,17 @@ This repository includes:
   - ClinVar pathogenicity prediction
 - Precomputed Evo2 embeddings
 
+The Zenodo archive provides all data and pretrained models, while this GitHub repository contains the code for preprocessing, training, and evaluation.
 ---
 
 ## 🧬 Non-random Chromatin Contacts
 
 CHROME relies on non-random chromatin contacts identified using **CHROMATIX**, a physics-based polymer model.
 
-- Precomputed contacts are available at:  
+- Some precomputed contacts are available at:  
   👉 https://chrompolymerdb.bme.uic.edu/
 
-- To generate contacts for your own Hi-C data:  
+- CHROMATIX for generating contacts for your own Hi-C data:  
   👉 https://bitbucket.org/aperezrathke/cmx/src/master/
 
 ---
@@ -42,17 +41,13 @@ This repository provides code for:
 - Data preprocessing
 - Model training
 - Evaluation pipelines
-
-(Instructions for setup and running the model will be added here.)
+- eQTL and ClinVar analyses
 
 ---
 
 
 
-## 📬 Contact
 
-For questions or issues, please open a GitHub issue.
----
 
 ## 🚀 Quick Start (Python 3.9 + Conda)
 
@@ -108,23 +103,8 @@ If you use CHROME in your work, please cite:
 Ye, B., Du, L., Chen, M., Dai, Y., Ma, A., & Liang, J. (2025).  
 *A Chromatin-Structure-Guided Framework for Predictive and Interpretable Regulatory Genomics*.  
 bioRxiv. https://doi.org/10.1101/2025.11.03.686435
-
-
-<!-- 
 ---
+## 📬 Contact
 
-## 📚 Citation
+For questions or issues, please open a GitHub issue.
 
-If you use **CHROME** in your research, please cite:
-
-> **Ye, B.**, Ma, A., and Dai, Y. (2025).  
-> *CHROME: Chromatin-Structure–Guided Graph Embedding Framework for Predictive Genomics.*  
-> *Nucleic Acids Research*, in preparation. -->
-
-<!-- --- -->
-
-<!-- ## 🧑‍💻 Contact -->
-
-<!-- **Bowei Ye**  
-<!-- Research Assistant, University of Illinois Chicago   -->
-<!-- 📧 boweiye2@uic.edu --> 
