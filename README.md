@@ -100,9 +100,9 @@ h5py
 
 If you use CHROME in your work, please cite:
 
-Ye, B., Du, L., Chen, M., Dai, Y., Ma, A., & Liang, J. (2025).  
-*A Chromatin-Structure-Guided Framework for Predictive and Interpretable Regulatory Genomics*.  
-bioRxiv. https://doi.org/10.1101/2025.11.03.686435
+> **Ye, B., Du, L., Chen, M., Dai, Y., Ma, A., & Liang, J. (2025).**  
+> *A Chromatin-Structure-Guided Framework for Predictive and Interpretable Regulatory Genomics.*  
+> **bioRxiv.** https://doi.org/10.1101/2025.11.03.686435
 ---
 ## 📬 Contact
 
