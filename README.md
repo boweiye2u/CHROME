@@ -96,14 +96,34 @@ h5py
 ```
 
 ---
+
 ## 📄 Citation
 
-If you use CHROME in your work, please cite:
+If you use **CHROME** in your work, please cite the published article:
 
-> **Ye, B., Du, L., Chen, M., Dai, Y., Ma, A., & Liang, J. (2025).**  
-> *A Chromatin-Structure-Guided Framework for Predictive and Interpretable Regulatory Genomics.*  
-> **bioRxiv.** https://doi.org/10.1101/2025.11.03.686435
----
+> **Ye, B., Du, L., Chen, M., Dai, Y., Ma, A., & Liang, J. (2026).**  
+> *A chromatin-structure-guided framework for predictive and interpretable regulatory genomics.*  
+> **Briefings in Bioinformatics, 27**(4), bbag360.  
+> https://doi.org/10.1093/bib/bbag360
+
+- [📖 Published article](https://academic.oup.com/bib/article/27/4/bbag360/8736954)
+- [📄 PDF](https://academic.oup.com/bib/article-pdf/27/4/bbag360/69204600/bbag360.pdf)
+
+### BibTeX
+
+```bibtex
+@article{ye2026chrome,
+    author  = {Ye, Bowei and Du, Lin and Chen, Min and Dai, Yang and Ma, Ao and Liang, Jie},
+    title   = {A chromatin-structure-guided framework for predictive and interpretable regulatory genomics},
+    journal = {Briefings in Bioinformatics},
+    volume  = {27},
+    number  = {4},
+    pages   = {bbag360},
+    year    = {2026},
+    month   = {07},
+    doi     = {10.1093/bib/bbag360},
+    url     = {https://doi.org/10.1093/bib/bbag360}
+}
 ## 📬 Contact
 
 For questions or issues, please open a GitHub issue.
